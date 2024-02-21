@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "marca": "Adidas",
+      "modelo": "Superstar",
+      "precio": 67999,
+      "imagen": "../assets/image/adidas_superstar.avif",
+      "envioGratis": "Envio Gratis"
+    },
+    {
+      "id": 2,
+      "marca": "Nike",
+      "modelo": "Air Force 1",
+      "precio": 80000,
+      "imagen": "../assets/image/nike_air_force_1.jpg",
+      "envioGratis": "Envio Gratis"
+    },
+    {
+      "id": 3,
+      "marca": "Converse",
+      "modelo": "Chuck Taylor All Star",
+      "precio": 98600,
+      "imagen": "../assets/image/converse_chuck_taylor.jpg",
+      "envioGratis": "Envio Gratis"
+    },
+    {
+      "id": 4,
+      "marca": "Puma",
+      "modelo": "Suede Classic",
+      "precio": 215000,
+      "imagen": "../assets/image/puma_suede_classic.jpg",
+      "envioGratis": "Envio Gratis"
+    },
+    {
+      "id": 5,
+      "marca": "Reebok",
+      "modelo": "Classic Leather",
+      "precio": 176500,
+      "imagen": "../assets/image/reebok_classic_leather.jpg",
+      "envioGratis": "Envio Gratis"
+    },
+    {
+      "id": 6,
+      "marca": "Vans",
+      "modelo": "Old Skool",
+      "precio": 64400,
+      "imagen": "../assets/image/vans_old_skool.jpg",
+      "envioGratis": "Envio Gratis"
+    }
+  ]
+  

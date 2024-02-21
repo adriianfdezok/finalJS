@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+  }
+
+
+header{
+  font-family: Poppins,'roboto';
+
+}
+main{
+  font-family: Robot,'roboto';
+
+  color: #13100f !important;
+}
+main h5{
+  font-family: Poppins,'roboto';
+
+}
+ :root {
+    --color-primario: #073e85; 
+    --color-secundario: #28a745;  
+    --color-fondo: #f8f7f7; 
+    --color-texto: #13100f;  
+    --badge-color:#850718;
+    --bg-footer:#181716;
+  }
+  
+  .btn-primario {
+    background-color: transparent;
+    border: 2px solid var(--color-primario);
+    color: var(--color-fondo);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: var(--color-primario);
+    color: #fff;
+  }
+  
+/* CSS para el navbar con color primario de Bootstrap */
+.navbar-primary {
+    background-color: var(--color-primario) !important;
+  }
+  
+  .navbar-primary .navbar-brand,
+  .navbar-primary .navbar-text,
+  .navbar-primary .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-primary .navbar-toggler-icon {
+    background-color: #fff;
+  }
+     .card-img-top {
+      object-fit: cover; 
+      height: 200px; 
+    }
+    .card{
+        border:none !important;
+        background-color: var(--color-fondo);
+        color: var(--color-texto)  ;
+    }
+
+    .btn{
+        color: var(--color-texto)  ;
+    }
+
+    .bg-primary{
+        background-color: var(--badge-color) !important;
+    }
+
+    .bg-zapatilla{
+        background-color: #202020;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor de la opacidad aquí */
+        z-index: 0;
+        transition: transform 0.3s ease; /* Transición suave */
+        pointer-events: none; /* Para que no afecte a los eventos del ratón */
+    }
+    
+    .overlay:hover {
+        transform: scale(1.1); /* Ajusta el valor de escala al pasar el ratón sobre el overlay */
+    }
+
+    .bg-search{
+      background-color: #fdfdfd;
+    }
+
+    .bg-footer{
+      background-color: var(--bg-footer);
+
+    }
+ 
+
+    footer{
+      
+      font-family: Robot,'roboto';
+
+    }
+    .card-filter:hover {
+      border: solid 20px rgba(246, 242, 248, 0.945);
+      filter: drop-shadow(0   0 15px rgba(119, 37, 212, 0.5));
+    }
+
+    .bg-email {
+      background-image: url("../image/pexels-andrea-piacquadio-3756165.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 200px;
+    }
+    
+
+
+    .bg-email .placeholdericon {
+      font: var(--fa-font-solid);
+      content: "\f007";
+
+
+  }
+
+  .fa-envelope {
+    background: transparent; /* Establecer el fondo como transparente */
+    color: #000000; /* Cambiar el color del icono si es necesario */
+}
+
+.descuent-bg{
+  background-color: #bd1748;
+  color: white !important;
+
+}
